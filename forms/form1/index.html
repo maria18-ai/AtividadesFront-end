@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formalário 1</title>
+</head>
+<body>
+
+    <section class="container_form">
+
+        <h1>Manutenção de usuário dos sistemas internos</h1>
+
+        <form>
+            <label for="login" class="legend">Login: </label> 
+            <input type="email" id="login" name="login" placeholder="Digite seu nome">
+
+            <br> <br>
+
+            <label for="password" class="legend">Senha: </label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+            <br> <br>
+
+            <label for="status" class="legend">Status: </label>
+            <select name="status" id="status">
+                <option value="inativo">Inativo</option>
+                <option value="nativo">Nativo</option>
+            </select>
+
+            <br> <br> 
+
+            <label for="type" class="legend">Tipo: </label>
+
+            <input type="radio" name="guest" id="guest">
+            <label for="tecn">Técnico</label>
+            
+            <input type="radio" name="prof" id="prof">
+            <label for="prof">Professor</label>
+
+            <input type="radio" name="aluno" id="aluno">
+            <label for="aluno">Aluno</label>
+
+            <br> <br> 
+
+            <label for="creation" class="legend">Data Criação: </label>
+            <input type="date" name="creation" id="creation">
+
+            <br><br>
+
+            <label for="profile"class="legend">Perfil: </label>
+
+            <input type="radio" name="guest" id="guest">
+            <label for="guest">Convidado</label>
+
+            <input type="radio" name="adm" id="adm">
+            <label for="adm">Administrador: </label>
+
+            <br> <br>
+
+            <label for="obs" class="legend">Observações</label>
+
+            <br><br>
+
+            <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+            <br> <br>
+
+            <label for="mod" class="legend">Módulos:</label>
+            <input type="checkbox" name="compras" id="compras">
+            <label for="compras">Compras</label>
+
+            <input type="checkbox" name="bibliotecas" id="bibliotecas">
+            <label for="bibliotecas">Bibliotecas</label>
+
+            <input type="checkbox" name="acad" id="acad">
+            <label for="acad">Acadêmia</label>
+
+            <br><br>
+
+            <input type="checkbox" name="doc" id="doc">
+            <label for="doc">Documentação</label>
+
+            <input type="checkbox" name="rs" id="rs">
+            <label for="rs">Recursos Humanos</label>
+
+            <br><br>
+            <br><br>
+
+            <input type="submit" value="Cadastrar" class="btn">
+            <br> <br>
+            <input type="reset" value="Excluir" class="btn">
+        </form>
+    </section>
+
+</body>
+</html>
