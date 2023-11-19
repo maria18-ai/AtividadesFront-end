@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Fale Conosco!</title>
+</head>
+<body>
+        <div>
+            <div class="container_form">
+                <div class="form_header">
+                    <h1>Fale Conosco</h1>
+                    <h3>Estamos disponíveis 24h.</h3>
+                </div>
+
+                        <form>
+                            <label for="name">Nome <span class="required_field">*</span></label>
+
+                            <br><br>
+
+                            <input type="text" 
+                            id="name" 
+                            name="name"
+                            min="1"
+                            max="30"
+                            class="input_style"
+                            placeholder="Nome"
+                            required>
+
+
+                            <input type="text"
+                            id="surname"
+                            name="surname"
+                            min="1"
+                            max="30"
+                            class="input_style"
+                            placeholder="Sobrenome"
+                            required>
+                            <p></p>
+
+                            <label for="email">E-mail <span class="required_field">*</span></label>
+
+                            <br><br>
+
+                            <input type="email" 
+                            name="email" 
+                            id="email"
+                            class="input_style"
+                            placeholder="exemplo@exemplo.com"
+                            required
+                            >
+                            
+
+                            <section class="mensage">
+                                <label for="mensage">Mensagem <span class="required_field">*</span></label>
+
+                                <br><br>
+
+                                <textarea name="mensage" id="mensage" 
+                                cols="85px"
+                                rows="10px"
+                                placeholder="Digite aqui sua mensagem.."></textarea>
+                            </section>
+
+                                <input type="submit"
+                                value="Enviar"
+                                id="btn_submit"
+                                onclick="handleHideMensage()">
+
+                                <section id="user_log">
+                                    <h2>Obrigado pela solicitação senhor(a) <span id="user_name"></span>!</h2>
+                                    <p>Um de nossos proficionais irá entrar em contato com você em breve.</p>
+                                </section>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://github.com/maria18-ai" 
+        id="link"
+        target="_blank">
+            <p>&copy; Feito Por Maria Teodoro</p>
+        </a>
+    </footer>
+</body>
+</html>
