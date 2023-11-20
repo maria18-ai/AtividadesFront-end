@@ -1,13 +1,13 @@
- * {
+* {
     margin: 0;
     padding: 0;
  }
 
  #head {
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(49, 49, 49);
     color: #fff;
     height: 100px;
-    text-align: center;
+    text-align: left;
     padding: 15px;
  }
 
@@ -16,7 +16,7 @@
  }
 
  #container_main {
-    left: 175px;
+    left: 195px;
     text-align: justify;
     background-color: #eeeded;
     width: 850px;
@@ -70,6 +70,12 @@
 
  #aside1 h2 {
     font-size: 30px;
+    padding: 10px;
+    text-align: center;
+ }
+
+ #aside1 p {
+    font-size: 20px;
     padding: 10px;
     text-align: center;
  }
